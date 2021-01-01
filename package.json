@@ -1,7 +1,7 @@
 {
   "name": "light-multi-select",
   "version": "1.0.0",
-  "description": "Ligtweight multiselect picker",
+  "description": "Light and highly customizable multi select picker",
   "main": "dist/main.min.js",
   "repository": {
     "type": "git",
@@ -45,6 +45,8 @@
     "lib": "lib"
   },
   "keywords": [
-    "multiselect"
+    "multiselect",
+    "picker",
+    "tag"
   ]
 }

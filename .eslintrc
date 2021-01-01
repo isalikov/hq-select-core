@@ -5,7 +5,8 @@
     "import/no-extraneous-dependencies": ["off"],
     "indent": ["error", 4],
     "semi": ["error", "never"],
-    "max-len": ["error", 120]
+    "max-len": ["error", 120],
+    "no-param-reassign": ["off"]
   },
   "env": {
     "browser": true

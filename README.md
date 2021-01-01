@@ -4,7 +4,7 @@
 
 # [light-multi-select](https://isalikov.github.io/light-multi-select)
 
-Ligtweight multiselect picker
+Light and highly customizable multi select picker
 
 > [Demo](https://isalikov.github.io/light-multi-select)
 
@@ -16,6 +16,19 @@ Ligtweight multiselect picker
 Just add `light-multi-select@latest` script to your document
 ```html
 <script src="https://unpkg.com/light-multi-select@latest/dist/light-multi-select.js"></script>
+```
+
+### Usage Example
+```html
+<script>
+    const select = LmSelect(document.querySelector('div#lm-select'), {
+        /* config props */
+    })
+
+    select.addEventListeners('open', () => { })
+    select.addEventListeners('close', () => { })
+    select.addEventListeners('search', () => { })
+</script>
 ```
 
 Or install as CommonJS module
