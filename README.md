@@ -1,27 +1,27 @@
-[![Build Status](https://travis-ci.org/isalikov/light-multi-select.svg?branch=main)](https://travis-ci.org/isalikov/light-multi-select)
-[![npm version](https://badge.fury.io/js/light-multi-select.svg)](https://badge.fury.io/js/light-multi-select)
+[![Build Status](https://travis-ci.org/isalikov/hq-select-core.svg?branch=main)](https://travis-ci.org/isalikov/hq-select-core)
+[![npm version](https://badge.fury.io/js/hq-select-core.svg)](https://badge.fury.io/js/hq-select-core)
 
 
-# [light-multi-select](https://isalikov.github.io/light-multi-select)
+# [hq-select-core](https://isalikov.github.io/hq-select-core)
 
 Light and highly customizable multi select picker
 
-> [Demo](https://isalikov.github.io/light-multi-select)
+> [Demo](https://isalikov.github.io/hq-select-core)
 
-![preview](https://github.com/isalikov/light-multi-select/blob/main/images/preview.gif?raw=true)
+![preview](https://github.com/isalikov/hq-select-core/blob/main/images/preview.gif?raw=true)
 
 ---
 
 ### Installation
-Just add `light-multi-select@latest` script to your document
+Just add `hq-select-core@latest` script to your document
 ```html
-<script src="https://unpkg.com/light-multi-select@latest/dist/light-multi-select.js"></script>
+<script src="https://unpkg.com/hq-select-core@latest/dist/hq-select-core.js"></script>
 ```
 
 ### Usage Example
 ```html
 <script>
-    const select = LmSelect(document.querySelector('div#lm-select'), {
+    const select = HqSelectCore(document.querySelector('div#hq-select-core'), {
         /* config props */
     })
 
@@ -32,5 +32,5 @@ Just add `light-multi-select@latest` script to your document
 ```
 
 Or install as CommonJS module
-- `npm install light-multi-select`
-- `import HqCropper from 'light-multi-select'`
+- `npm install hq-select-core`
+- `import HqCropper from 'hq-select-core'`
